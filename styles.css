@@ -61,12 +61,11 @@ p {
     }
 }
 
-/* Add a subtle hover effect for the whole content */
+
 .content:hover .coffee-animation {
     animation-duration: 1s;
 }
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
     h1 {
         font-size: 2rem;
