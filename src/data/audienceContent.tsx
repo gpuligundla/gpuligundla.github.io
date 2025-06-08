@@ -47,7 +47,7 @@ export const audienceContent: Record<AudienceType, AudienceContent> = {
   "engineering-managers": {
     title: "Engineering Managers",
     description:
-      "I bring technical expertise to product development, bridging the gap between business objectives and technical execution.",
+      "A curiosity-driven, first-principles engineer leveraging technical expertise to build thoughtful software solutions — currently exploring Generative AI.",
     links: [
       <a
         href="https://www.linkedin.com/in/gpuligundla/"
@@ -82,7 +82,7 @@ export const audienceContent: Record<AudienceType, AudienceContent> = {
   anyone: {
     title: "For Anyone",
     description:
-      "I'm a Software Engineer who loves designing and building scalable, reliable software solutions from the ground up. I take a first-principles approach for problem-solving.",
+      "Hi there — I'm a software engineer strives to solve the real-world problems. Yes, I can probably fix your wifi issues.",
     links: [
       <a
         href="https://www.linkedin.com/in/gpuligundla/"
