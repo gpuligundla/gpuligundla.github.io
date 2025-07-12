@@ -1,0 +1,69 @@
+<div class="status-indicator">
+  <div class="pulse-container">
+    <div class="pulse-dot"></div>
+    <div class="pulse-ring"></div>
+  </div>
+  <p class="status-text">{{ .Get "text" | default "Looking for new opportunities." }}</p>
+</div>
+
+<style>
+  .status-indicator {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+    margin-top: 16px;
+  }
+
+  .pulse-container {
+    position: relative;
+    width: 8px;
+    height: 8px;
+  }
+
+  .pulse-dot {
+    width: 8px;
+    height: 8px;
+    background-color: #fefeff;
+    border-radius: 50%;
+    animation: pulse 2s infinite;
+  }
+
+  .pulse-ring {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    background-color: #fefeff;
+    border-radius: 50%;
+    animation: ping 1.5s ease-in-out infinite;
+    opacity: 0.9;
+  }
+
+  .status-text {
+    font-size: 16px;
+    color: #969696;
+    margin: 0;
+  }
+
+  @keyframes pulse {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+  }
+
+  @keyframes ping {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    75%, 100% {
+      transform: scale(2);
+      opacity: 0;
+    }
+  }
+</style>

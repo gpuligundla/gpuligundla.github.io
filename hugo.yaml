@@ -22,16 +22,13 @@ params:
   title: Geethakrishna
   description: "Welcome to my Home"
   keywords: [Portfolio, Blog]
-  author: Me
   DateFormat: "January 2, 2006"
   defaultTheme: dark
   disableThemeToggle: false
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
-  ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
-  ShowWordCount: true
   ShowPageNums: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
@@ -48,7 +45,7 @@ params:
   # Home Page Information
   homeInfoParams:
     Title: '{{< terminal-prompt user="gk" host="portfolio" path="~" text="echo \"Hello, World!\"" >}}'
-    Content: "### Hey! I'm GK\n Welcome to my corner of the internet. This site showcases my projects, skills, and learning journey in software engineering and technology. Explore my work, read my blog, and connect with me!"
+    Content: "### Hey! I'm GK\n Welcome to my corner of the internet. This site showcases my projects, skills, and learning journey in software engineering and technology. Explore my work, read my blog, and connect with me!\n\n**💼 Currently open to new opportunities** - Feel free to reach out if you have exciting projects or positions that align with my skills!"
 
   # Social Icons
   socialIcons:
