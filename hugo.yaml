@@ -1,0 +1,112 @@
+# Site Configuration
+baseURL: "gpuligundla.github.io/"
+languageCode: "en-us"
+title: "Geethakrishna"
+theme: "PaperMod"
+
+buildFuture: true
+enableRobotsTXT: true
+buildDrafts: true
+buildExpired: true
+
+# Output Formats
+outputs:
+  home: ["html", "rss", "json"]
+  section: ["html", "rss"]
+  taxonomy: ["html"]
+  term: ["html"]
+
+# Site Parameters
+params:
+  env: production
+  title: Geethakrishna
+  description: "Welcome to my Home"
+  keywords: [Portfolio, Blog]
+  author: Me
+  DateFormat: "January 2, 2006"
+  defaultTheme: dark
+  disableThemeToggle: false
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowPageNums: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: true
+  hidemeta: false
+  hideSummary: true
+  showtoc: false
+  tocopen: false
+  search: true
+  searchPlaceholder: "Search..."
+
+  # Home Page Information
+  homeInfoParams:
+    Title: '{{< terminal-prompt user="gk" host="portfolio" path="~" text="echo \"Hello, World!\"" >}}'
+    Content: "### Hey! I'm GK\n Welcome to my corner of the internet. This site showcases my projects, skills, and learning journey in software engineering and technology. Explore my work, read my blog, and connect with me!"
+
+  # Social Icons
+  socialIcons:
+    - name: "cv"
+      url: "https://drive.google.com/file/d/1TsylLVdSXfqbrd4rvmzgk027mFX2uO7_/view?usp=drive_link"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/gpuligundla"
+    - name: "github"
+      url: "https://github.com/gpuligundla"
+    - name: "email"
+      url: "mailto:pgeethakrishna@gmail.com"
+    - name: "X"
+      url: "https://x.com/geethakrishna_p"
+
+  # Cover Image Parameters
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  # Search Settings
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+# Menu Configuration
+menu:
+  main:
+    - identifier: "home"
+      name: "Home"
+      url: "/"
+      weight: 1
+    - identifier: "about"
+      name: "About"
+      url: "/about/"
+      weight: 2
+    - identifier: "posts"
+      name: "Blog"
+      url: "/blog/"
+      weight: 3
+    - identifier: "now"
+      name: "Now"
+      url: "/now/"
+      weight: 4
+    - identifier: "search"
+      name: "Search"
+      url: "/search/"
+      weight: 5
+
+# Markup and Syntax Highlighting Settings
+markup:
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    lineNos: false
+    noClasses: false
