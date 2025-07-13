@@ -1,0 +1,3 @@
+{{- /* Custom CSS for profile styling */ -}}
+{{ $profileCSS := resources.Get "css/extended/profile.css" | resources.Minify }}
+<link rel="stylesheet" href="{{ $profileCSS.RelPermalink }}" />

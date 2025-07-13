@@ -1,0 +1,13 @@
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Find the existing footer
+    const footer = document.querySelector('footer.footer');
+    if (footer) {
+        // Add custom message to the existing footer
+        const customMessage = document.createElement('span');
+        customMessage.innerHTML = ' · Keep Hustling';
+        customMessage.style.color = 'var(--secondary)';
+        footer.appendChild(customMessage);
+    }
+});
+</script>

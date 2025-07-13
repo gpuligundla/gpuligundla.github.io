@@ -3,11 +3,18 @@
 </div>
 
 <style>
+  .terminal-prompt {
+    margin: 0;
+    padding: 0;
+  }
+  
   .terminal-prompt code {
-    color: #f8f8f8;
+    color: var(--content);
     font-family: monospace;
     background: transparent;
     font-size: 1em;
+    margin: 0;
+    padding: 0;
   }
 
   .cursor {
@@ -15,7 +22,7 @@
     width: 0.3em;
     height: 0.75em;
     margin-left: 2px;
-    background-color: #f8f8f8;
+    background-color: var(--content);
     vertical-align: middle;
     animation: blink 1s step-start infinite;
   }

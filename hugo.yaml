@@ -23,8 +23,9 @@ params:
   description: "Welcome to my Home"
   keywords: [Portfolio, Blog]
   DateFormat: "January 2, 2006"
+  mainSections: ['/']
   defaultTheme: dark
-  disableThemeToggle: false
+  disableThemeToggle: true
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
@@ -42,23 +43,30 @@ params:
   search: true
   searchPlaceholder: "Search..."
 
-  # Home Page Information
-  homeInfoParams:
-    Title: '{{< terminal-prompt user="gk" host="portfolio" path="~" text="echo \"Hello, World!\"" >}}'
-    Content: "### Hey! I'm GK\n Welcome to my corner of the internet. This site showcases my projects, skills, and learning journey in software engineering and technology. Explore my work, read my blog, and connect with me!\n\n**💼 Currently open to new opportunities** - Feel free to reach out if you have exciting projects or positions that align with my skills!"
+  # Home Page Settings - Using custom _index.md instead of homeInfoParams
+  # homeInfoParams disabled in favor of custom about page as homepage
 
   # Social Icons
   socialIcons:
+    - name: "email"
+      url: "mailto:pgeethakrishna@gmail.com"
+      title: "Email"
     - name: "cv"
       url: "https://drive.google.com/file/d/1TsylLVdSXfqbrd4rvmzgk027mFX2uO7_/view?usp=drive_link"
+      title: "Resume"
     - name: "linkedin"
       url: "https://www.linkedin.com/in/gpuligundla"
     - name: "github"
       url: "https://github.com/gpuligundla"
-    - name: "email"
-      url: "mailto:pgeethakrishna@gmail.com"
     - name: "X"
       url: "https://x.com/geethakrishna_p"
+      title: "X (Twitter)"
+    - name: "leetcode"
+      url: "https://leetcode.com/gpuligundla"
+      title: "LeetCode"
+    - name: "zcal"
+      url: "https://cal.com/gpuligundla"
+      title: "Meeting"
 
   # Cover Image Parameters
   cover:
@@ -79,26 +87,22 @@ params:
 # Menu Configuration
 menu:
   main:
-    - identifier: "home"
-      name: "Home"
-      url: "/"
-      weight: 1
     - identifier: "about"
       name: "About"
-      url: "/about/"
-      weight: 2
+      url: "/"
+      weight: 1
     - identifier: "posts"
       name: "Blog"
       url: "/blog/"
-      weight: 3
+      weight: 2
     - identifier: "now"
       name: "Now"
       url: "/now/"
-      weight: 4
+      weight: 3
     - identifier: "search"
       name: "Search"
       url: "/search/"
-      weight: 5
+      weight: 4
 
 # Markup and Syntax Highlighting Settings
 markup:

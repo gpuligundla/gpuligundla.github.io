@@ -1,0 +1,35 @@
+/* Profile photo styling - positioned right after the heading */
+.post-content img[alt="Profile Photo"] {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    object-fit: cover;
+    float: right;
+    margin: 0 0 1rem 2rem;
+    shape-outside: margin-box;
+}
+
+/* Ensure proper text wrapping around the image */
+.post-content h1:first-of-type ~ p {
+    text-align: justify;
+}
+
+/* Clear float before the next section */
+.post-content h2:first-of-type {
+    clear: both;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .post-content img[alt="Profile Photo"] {
+        float: none;
+        display: block;
+        margin: 1rem auto;
+        width: 150px;
+        height: 150px;
+    }
+    
+    .post-content h1:first-of-type ~ p {
+        text-align: center;
+    }
+}
