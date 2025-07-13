@@ -1,5 +1,5 @@
 # Site Configuration
-baseURL: "gpuligundla.github.io/"
+baseURL: "https://gpuligundla.github.io/"
 languageCode: "en-us"
 title: "Geethakrishna"
 theme: "PaperMod"
@@ -23,7 +23,7 @@ params:
   description: "Welcome to my Home"
   keywords: [Portfolio, Blog]
   DateFormat: "January 2, 2006"
-  mainSections: ['/']
+  mainSections: ["/"]
   defaultTheme: dark
   disableThemeToggle: true
   ShowReadingTime: true
