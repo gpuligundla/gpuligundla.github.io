@@ -52,12 +52,12 @@ params:
 
   # Social Icons
   socialIcons:
+    - name: "cv"
+      url: "/Geethakrishna_Resume.pdf"
+      title: "Resume"
     - name: "email"
       url: "mailto:pgeethakrishna@gmail.com"
       title: "Email"
-    - name: "cv"
-      url: "https://drive.google.com/file/d/1TsylLVdSXfqbrd4rvmzgk027mFX2uO7_/view?usp=drive_link"
-      title: "Resume"
     - name: "linkedin"
       url: "https://www.linkedin.com/in/gpuligundla"
     - name: "github"
