@@ -9,6 +9,10 @@ enableRobotsTXT: true
 buildDrafts: true
 buildExpired: true
 
+caches:
+  images:
+    dir: :cacheDir/images
+
 # Output Formats
 outputs:
   home: ["html", "rss", "json"]
