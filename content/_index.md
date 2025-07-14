@@ -44,40 +44,40 @@ Bachelor of Technology in Computer Science
 # work.
 
 **MyUI.ai**  
-Software Developer • Clemson, SC
+Software Developer • Clemson, SC  
 `Jul 2025 - Present, Aug 2024 - Dec 2024`
 
-Collaborated with the founding team to architect and develop a full-stack web and mobile application for a client, integrating advanced RL-based models to deliver intelligent, user-focused solutions.
+Founding team member architecting a multi-tenant, fully scalable B2B health platform for senior living communities. Responsible for end-to-end product architecture, backend system development, and collaboration on web and mobile client applications. Lead a team of five engineers, driving technical direction and ensuring seamless integration across all product components.
 
 · · ·
 
 **Clemson University**  
-Graduate Assistant _(part-time)_  
-`Jan 2025 - May 2025, Jan 2024 - May 2024` • Clemson, SC
+Graduate Assistant _(part-time)_ • Clemson, SC  
+`Jan 2025 - May 2025, Jan 2024 - May 2024`
 
-Collaborated with faculty and research teams on various academic projects, contributing to full-stack development initiatives and research-based applications.
+Developed full-stack research data applications supporting water filtration projects, efficiently managing over 100,000 experimental reports. Designed and maintained ETL pipelines for streamlined data processing, and administered Linux workstations integrated with the Palmetto High Performance cluster (HPC). Developed parallel execution scripts and automated remote setup for OpenFOAM and ParaView using client-server architecture with HPC.
 
 · · ·
 
 **Musco**  
-Software Engineer Intern  
-`May 2024 - Aug 2024` • Urbandale, IA
+Software Engineer Intern • Urbandale, IA  
+`May 2024 - Aug 2024`
 
 As part of the Emerging Tech team, I contributed to the development of an industry-first, machine learning-powered software intelligence product designed to assist umpires in baseball. My primary focus was on architecting and implementing core features within the software layer, and setting up observability system for the edge IoT devices.
 
 · · ·
 
 **SonicWall**  
-Software Developer  
-`Jun 2022 - Jul 2023` • Bengaluru, India
+Software Developer • Bengaluru, India  
+`Jun 2022 - Jul 2023`
 
 Developed and maintained internal and client-facing tools supporting SonicWall's core firewall products. Enhanced automation, improved user experience, and collaborated with cross-functional teams to deliver robust solutions for enterprise security workflows.
 
 · · ·
 
 **Tata Consultancy Services**  
-Associate Systems Engineer  
-`Sept 2020 - Jun 2022` • Bengaluru, India
+Associate Systems Engineer • Bengaluru, India  
+`Sept 2020 - Jun 2022`
 
 Built and enhanced full-stack enterprise applications for global clients, focusing on improving performance, reliability, and user experience. Worked closely with cross-functional teams to deliver scalable solutions and streamline key business workflows.
 
@@ -141,27 +141,27 @@ I genuinely enjoy contributing to open source projects and being part of the dev
 **[BashUnit - Upgrade Flag Implementation](https://github.com/TypedDevs/bashunit/pull/222)** 🔗  
 `Bash • CLI Development • Version Management • GitHub API`
 
-Implemented a new `--upgrade` flag feature for BashUnit testing framework. Built version comparison logic that checks GitHub releases, compares with local installation, and automatically pulls and builds the latest version, streamlining the update process for developers.
+Implemented a new `--upgrade` flag feature for BashUnit testing framework with version comparison logic that checks GitHub releases and automatically updates installations.
 
 · · ·
 
 **[ZimFarm - Recipe Scheduling UI Enhancement](https://github.com/openzim/zimfarm/pull/873)** 🔗  
 `Python • API Schema • Frontend Development • ZIM File Format`
 
-Enhanced the ZimFarm web interface by adding visual indicators for disabled automatic recipe scheduling. Modified API schema to expose scheduling status from backend and implemented frontend logic to display pause icons, improving user experience for managing Wikipedia content scraping workflows.
+Enhanced ZimFarm web interface by adding visual indicators for disabled automatic recipe scheduling, modifying API schema and implementing frontend logic for improved user experience.
 
 · · ·
 
 **[Griffe - API Breaking Change Detection](https://github.com/mkdocstrings/griffe/pull/225)** 🔗  
 `Python • Static Analysis • API Documentation • Type Annotations`
 
-Fixed bug in Griffe's API breaking change detection system. Added proper handling for detecting when default values are removed from type-annotated variables, ensuring accurate reporting of breaking changes in Python API documentation generation.
+Fixed bug in Griffe's API breaking change detection system by adding proper handling for detecting when default values are removed from type-annotated variables.
 
 · · ·
 
 **[Rotting Research - ArXiv Link Validation Fix](https://github.com/rottingresearch/rottingresearch/pull/198)** 🔗  
 `Python • URL Parsing • Academic Research Tools • Link Validation`
 
-Resolved ArXiv link validation bug that incorrectly reported active links as "N/A" status. Fixed URL construction logic for proper domain and parameter handling, improving citation reliability checking for academic researchers.
+Resolved ArXiv link validation bug that incorrectly reported active links as "N/A" status by fixing URL construction logic for proper domain and parameter handling.
 
 ---
