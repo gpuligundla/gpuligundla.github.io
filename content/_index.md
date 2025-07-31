@@ -85,7 +85,7 @@ Built and enhanced full-stack enterprise applications for global clients, focusi
 
 # projects.
 
-**[RAG-powered PDF Chatbot](https://github.com/gpuligundla/rag-pdf-chatbot)** 🔗  
+**[RAG-powered PDF Chatbot](https://github.com/gpuligundla/pdf-rag-ollama)** 🔗  
 `Python • Langchain • Ollama • RAG • ChromaDB`
 
 Developed a full-stack Retrieval-Augmented Generation (RAG) system featuring PDF parsing, vector search with ChromaDB, multi-query retrieval, and a responsive chat-based UI for intelligent document querying with 95%+ contextual accuracy.
@@ -99,21 +99,21 @@ A microservices-based e-commerce platform featuring 4 distinct services with eve
 
 · · ·
 
-**[Festive Fusion](https://github.com/gpuligundla/FestiveFusion)** 🔗  
+**[Festive Fusion](https://github.com/gpuligundla/Festive-Fusion)** 🔗  
 `Python • Pygame • OOP • Design Patterns`
 
 A Pokémon-inspired, 3-level adventure game built with object-oriented programming and modern design patterns. Features include save/load functionality implemented using Memento, Singleton, and Factory patterns, enhancing both gameplay experience and code maintainability.
 
 · · ·
 
-**[CUDA-Accelerated AES-128 Implementation](https://github.com/gpuligundla/cuda-aes128)** 🔗  
+**[CUDA-Accelerated AES-128 Implementation](https://github.com/gpuligundla/CUDA-AES)** 🔗  
 `CUDA • C++ • Encryption • GPU`
 
 Developed a high-performance AES-128 encryption and decryption system using CUDA, achieving up to 15x speedup over CPU implementations. Leveraged multi-stream processing, pinned memory, shared and constant memory, and zero-copy techniques to enable efficient, low-latency file encryption on GPU.
 
 · · ·
 
-**[AWS Cloud Solution for TigerMed](https://github.com/gpuligundla/tigermed-aws-cloud)** 🔗  
+**[AWS Cloud Solution for TigerMed](https://github.com/gpuligundla/aws-migration)** 🔗  
 `AWS • EC2 • VPC • ALB • CloudFormation • High Availability`
 
 Architected enterprise-grade multi-region AWS infrastructure with VPC, public/private subnets, NAT gateways, and Application Load Balancers. Implemented automated failover with Route 53, achieved 99.99% uptime, and ensured HIPAA compliance through comprehensive security controls and CloudFormation IaC.
