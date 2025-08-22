@@ -44,10 +44,10 @@ Bachelor of Technology in Computer Science
 # work.
 
 **MyUI.ai**  
-Software Developer • Clemson, SC  
+Software Developer (Founding Engineer) • Clemson, SC  
 `Jul 2025 - Present, Aug 2024 - Dec 2024`
 
-Founding team member architecting a multi-tenant, fully scalable B2B health platform for senior living communities. Responsible for end-to-end product architecture, backend system development, and collaboration on web and mobile client applications. Lead a team of five engineers, driving technical direction and ensuring seamless integration across all product components.
+Founding team member architecting a multi-tenant, fully scalable B2B AI communication platform for senior living communities. Responsible for end-to-end product architecture, backend system development, and collaboration on web and mobile client applications. Lead a team of three engineers, driving technical direction and ensuring seamless integration across all product components.
 
 · · ·
 
